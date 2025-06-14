@@ -17,3 +17,7 @@ index.ejs -> é o arquivo mais importante do orquestrador. A partir do mesmo, re
 - unmount: app é desmontado da tela.
 
 Obs.: Migração para o Vite: https://medium.com/@kavinduvsomadasa/vite-and-react-configuration-in-single-spa-993b2c1a150e.
+
+# Issues
+
+https://github.com/single-spa/single-spa/issues/1297
