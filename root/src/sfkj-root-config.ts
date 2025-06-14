@@ -7,6 +7,16 @@ registerApplication({
       /* webpackIgnore: true */ // @ts-ignore-next
       "@sfkj/mfe-hello-world"
     ),
+  activeWhen: ["/hello-world"],
+});
+
+registerApplication({
+  name: "@sfkj/mfe-react-navbar",
+  app: () =>
+    import(
+      /* webpackIgnore: true */ // @ts-ignore-next
+      "@sfkj/mfe-react-navbar"
+    ),
   activeWhen: ["/"],
 });
 
