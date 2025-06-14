@@ -1,3 +1,0 @@
-# Start
-
-pnpm start
