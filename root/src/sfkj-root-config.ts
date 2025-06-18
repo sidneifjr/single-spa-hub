@@ -7,7 +7,17 @@ registerApplication({
       /* webpackIgnore: true */ // @ts-ignore-next
       "@sfkj/mfe-react-navbar"
     ),
-  activeWhen: ["/"],
+  activeWhen: ["/"], // o app será exibido em todas as rotas.
+});
+
+registerApplication({
+  name: "@sfkj/mfe-dashboard",
+  app: () =>
+    import(
+      /* webpackIgnore: true */ // @ts-ignore-next
+      "@sfkj/mfe-dashboard"
+    ),
+  activeWhen: ["/"], // o app será exibido em todas as rotas.
 });
 
 start({
