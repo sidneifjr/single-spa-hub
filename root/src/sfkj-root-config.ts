@@ -17,7 +17,7 @@ registerApplication({
       /* webpackIgnore: true */ // @ts-ignore-next
       "@sfkj/mfe-dashboard"
     ),
-  activeWhen: ["/"], // o app será exibido em todas as rotas.
+  activeWhen: ["/dashboard"],
 });
 
 start({
